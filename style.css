@@ -1,0 +1,43 @@
+/* * {
+	padding: 0;
+	margin: 0;
+} */
+body {
+	font-family: arial;
+	text-align: center;
+	color: rgba(0,0,0,.7);
+	/*text-transform: uppercase;*/
+	background: linear-gradient(to right, #FF0200, #FFFC00);
+}
+h1 {
+	text-transform: uppercase;
+	font: 600 2.5em 'Raleway', sans-serif;
+
+}
+h3{
+	font: 900 1em 'Raleway', sans-serif;
+}
+p, .result {
+	/* font: 700 1em arial; */
+	background-color: rgba(255,255,255,0.4);
+	padding: 5px;
+	border-radius: 5px;
+}
+.BKGGG{
+	position: relative;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 60vw;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 10px;
+}
+input, select, button {
+	margin: 1px;
+	border: 2px solid rgba(255,255,255,0.4);
+	background: transparent;
+	padding: 2px;
+}

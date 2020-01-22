@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>background generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="BKGGG">
+		<h1>Background Generator</h1>
+		<p>Select Linear Gradient direction and choose desired <strong>Start</strong> and <strong>End</strong> colors</p>
+		<select id="selectField">
+			<option value="to right">Left to Right</option>
+			<option value="to left">Right to Left</option>
+			<option value="to bottom">Top to Bottom</option>
+			<option value="to top left">Bottom Right to Top Left</option>
+			<option value="to top right">Bottom Left to Top Right</option>
+			<option value="0deg">Botton to Top</option>
+			<option value="45deg">Direction Angle 45 Degrees</option>
+			<option value="90deg">Direction Angle 90 Degrees</option>
+			<option value="225deg">Direction Angle 225 Degrees</option>
+		</select>
+		<span id="colorContainer">
+			<input type="color" class="color color0" value="#FF0200" >
+			<input type="color" class="color color1" value="#FFFC00" >
+		</span>
+		<button type="button" id="addButton">Add Color</button>
+		<h3>Current CSS Background </h3>
+		<span class="result"></span>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
